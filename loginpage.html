@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main{
+            height: 500px;
+            width: 750px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 60px;
+        }
+        .image{
+            height: 500px;
+        }
+        .logo-container{
+            margin-left: 40px;
+        }
+        .logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 15px;
+        }
+        .login-div{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+            border-radius: 8px;
+            height: 180px;
+            width: 300px;
+            margin-left: 60px;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9px;
+            color: rgb(165, 156, 156);
+        }
+        .para{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 20px;
+            margin-top: 14px;
+        }
+        .remember{
+            margin-right: 120px;
+        }
+        button{
+            background-color: rgb(0, 134, 192);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.45);
+            padding: 6px 10px 6px 10px;
+            margin-right: 20px;
+            margin-top: 4px;
+            cursor: pointer;
+        }
+        .field{
+            margin-left: 20px;
+        }
+        .input{
+            width: 250px;
+            height: 24px;
+        }
+        .last1{
+            margin-left: -120px;
+            font-size: 10px;
+            color: rgb(134, 132, 132);
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .last2{
+            margin-left: -120px;
+            font-size: 10px;
+            color: rgb(134, 132, 132);
+            font-weight: bold;
+            margin-top:-1px;
+        }
+        .last1:hover,.last2:hover{
+           cursor: pointer;
+           text-decoration: underline; 
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <main>
+            <div>
+                <img class="image" src="/photos/loginnature.avif" alt="">
+            </div>
+            <div class="second">
+                <div class="logo-container">
+                    <img class="logo" src="/photos/logodiablo.jpg" alt="">
+                </div>
+                <div class="login-div">
+                    <div class="field">
+                     <p>Username or Email Adress</p>
+                     <input class="input" type="text">
+                    </div>
+                    <div class="field">
+                        <p>password</p>
+                        <input class="input" type="password" name="" id="">
+                    </div>
+                    <div class="para">
+                            <div>
+                                <input type="checkbox">
+                            </div>
+                            <div>
+                                <p class="remember">Remember Me</p>
+                            </div>
+                            <button>Log In</button>
+                    </div>
+                </div>
+                <p class="last1">Lost your password?</p>
+                <p class="last2">&#8592; Back to uiCookies</p>
+            </div>
+        </main>
+    </header>
+    
+</body>
+</html>
